@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# NoCutout
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 28
 
