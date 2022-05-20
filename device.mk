@@ -9,6 +9,8 @@ $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/oneplus7/oneplus7-vendor.mk)
 
+AOSPA_BUILDTYPE := RELEASE
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAOnePlus7SystemUI \
