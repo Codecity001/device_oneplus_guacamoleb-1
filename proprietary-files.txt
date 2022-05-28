@@ -200,3 +200,7 @@ vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/sns_reg_config
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
+
+# Vibrator HAL from OnePlus7-user 10 QKQ1.190716.003 2101212213 release-keys  
+vendor/lib64/hw/vibrator.default.so|f4b09524bbd1b4c7a91191d5793ae000e3cde0af
+vendor/lib/hw/vibrator.default.so|978124791e0ede0b043e4649130de86790735cbd
