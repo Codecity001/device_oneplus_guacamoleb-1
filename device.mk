@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_pahu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pahu.xml \
     $(LOCAL_PATH)/audio/mixer_paths_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tavil.xml
 
+# Stock fingerprint for ARCore
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.stock.build.fingerprint=OnePlus/OnePlus7_EEA/OnePlus7:11/RKQ1.201022.002/2204061052:user/release-keys
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
