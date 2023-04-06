@@ -414,6 +414,12 @@
         <item>99</item> <!-- sensorRadius -->
      </integer-array>
 
+     <!-- The component name for the default system rotation resolver service.
+        This service must be trusted, as it can be activated without explicit consent of the user.
+        See android.service.rotationresolver.RotationResolverService.
+    -->
+    <string name="config_defaultRotationResolverService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiRotationResolverService</string>
+
     <!-- Flag indicating whether we should enable the adaptive sleep.-->
     <bool name="config_adaptive_sleep_available">true</bool>
 
