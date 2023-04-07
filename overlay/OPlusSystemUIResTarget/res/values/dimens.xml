@@ -27,4 +27,8 @@
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">860px</dimen>
 
+    <!-- FOD recognizing animation -->
+    <dimen name="udfps_animation_size">550.0px</dimen>
+    <dimen name="udfps_animation_offset">20.0px</dimen>
+
 </resources>
