@@ -29,4 +29,8 @@
 
     <dimen name="keyguard_indication_margin_bottom">15dp</dimen>
 
+    <!-- FOD recognizing animation -->
+    <dimen name="udfps_animation_size">550.0px</dimen>
+    <dimen name="udfps_animation_offset">20.0px</dimen>
+
 </resources>
