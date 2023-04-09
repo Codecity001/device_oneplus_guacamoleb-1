@@ -29,6 +29,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Gapps build
+TARGET_BUILD_GAPPS := true
+
 # Device Personalization Services
 PRODUCT_PACKAGES += \
     MatchmakerPrebuilt
