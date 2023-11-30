@@ -33,6 +33,21 @@ scr_resolution := 1080
 TARGET_SCREEN_HEIGHT := 2240
 TARGET_SCREEN_WIDTH := 1080
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Blur properties
+TARGET_USES_BLUR := true
+
+# FOD Animations
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Official-ify
+DERP_BUILDTYPE := Official
+
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus7 \
