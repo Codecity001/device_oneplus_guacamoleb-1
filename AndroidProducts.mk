@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_guacamoleb.mk
+    $(LOCAL_DIR)/derp_guacamoleb.mk
