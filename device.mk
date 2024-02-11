@@ -40,6 +40,9 @@ EXTRA_UDFPS_ICONS := true
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# Gapps
+TARGET_USES_MINI_GAPPS := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-derp
