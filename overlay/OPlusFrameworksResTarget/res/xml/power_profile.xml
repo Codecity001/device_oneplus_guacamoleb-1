@@ -233,9 +233,9 @@
   </array>
 
   <!-- Current when CPU is awake -->
-  <item name="cpu.awake">14</item>
+  <item name="cpu.awake">8</item>
   <!-- Current when CPU is idle -->
-  <item name="cpu.idle">6.5</item>
+  <item name="cpu.idle">5</item>
 
   <!-- Memory bandwidth power values in mA at the rail. There must be one value
        for each bucket defined in the device tree. -->
@@ -244,7 +244,7 @@
   </array>
 
   <!-- This is the battery capacity in mAh (measured at nominal voltage) -->
-  <item name="battery.capacity">4065</item>
+  <item name="battery.capacity">3700</item>
 
   <!-- Wifi related values. -->
   <!-- Idle Receive current for wifi radio in mA. 0 by default-->
