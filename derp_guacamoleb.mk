@@ -45,9 +45,6 @@ EXTRA_UDFPS_ANIMATIONS := true
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
-# Official-ify
-DERP_BUILDTYPE := Official
-
 # Build info
 BUILD_FINGERPRINT := "OnePlus/OnePlus7_EEA/OnePlus7:11/RKQ1.201022.002/2206171325:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
