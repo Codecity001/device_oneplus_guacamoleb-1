@@ -28,6 +28,18 @@ PRODUCT_COPY_FILES += \
 # Fastboot
 TARGET_BOARD_FASTBOOT_INFO_FILE := $(LOCAL_PATH)/fastboot-info.txt
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Blur properties
+TARGET_USES_BLUR := true
+
+# UDFPS Icons
+EXTRA_UDFPS_ICONS := true
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-derp
