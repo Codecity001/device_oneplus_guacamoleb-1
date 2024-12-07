@@ -37,6 +37,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackagesDevice
 
+PRODUCT_PACKAGES += \
+    SystemUIOverlay
+
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4630946253560767361.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946253560767361.xml
