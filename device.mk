@@ -43,6 +43,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Gapps
 TARGET_USES_MINI_GAPPS := true
 
+# Derp versioning
+DERP_VERSION_APPEND_TIME_OF_DAY := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-derp
