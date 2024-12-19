@@ -22,5 +22,17 @@
     <!-- SystemUI Plugins that can be loaded on user builds. -->
     <string-array name="config_pluginAllowlist" translatable="false">
         <item>org.lineageos.settings.device</item>
+        <item>com.android.systemui</item>
+        <item>com.android.systemui.plugin.globalactions.wallet</item>
+        <item>com.derp.device.DeviceSettings</item>
+        <item>com.android.systemui.clocks.bignum</item>
+        <item>com.android.systemui.clocks.calligraphy</item>
+        <item>com.android.systemui.clocks.flex</item>
+        <item>com.android.systemui.clocks.growth</item>
+        <item>com.android.systemui.clocks.inflate</item>
+        <item>com.android.systemui.clocks.metro</item>
+        <item>com.android.systemui.clocks.numoverlap</item>
+        <item>com.android.systemui.clocks.handwritten</item>
+        <item>com.android.systemui.clocks.weather</item>
     </string-array>
 </resources>
