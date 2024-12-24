@@ -53,10 +53,6 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
-# NoCutout
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-
 # AlertSlider
 PRODUCT_PACKAGES += \
     SystemUIOverlay \
