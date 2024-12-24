@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
 # Fastboot
 TARGET_BOARD_FASTBOOT_INFO_FILE := $(LOCAL_PATH)/fastboot-info.txt
 
+# GooglePhotos
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
+
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
