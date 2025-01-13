@@ -59,7 +59,8 @@ PRODUCT_PACKAGES += \
 
 # AlertSlider
 PRODUCT_PACKAGES += \
-    SystemUIOverlay 
+    SystemUIOverlay \
+    AlertSliderOverlay
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 28
