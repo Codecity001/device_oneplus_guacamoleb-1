@@ -13,16 +13,19 @@
     <item name="pixel_pitch" format="float" type="dimen">63.17</item>
 
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">48px</dimen>
+    <dimen name="status_bar_padding_start">28px</dimen>
 
     <!-- the padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">28px</dimen>
+
+    <!-- the padding on the top of the statusbar (usually 0) -->
+    <dimen name="status_bar_padding_top">6dp</dimen>
 
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">70px</dimen>
+    <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
 
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">860px</dimen>
@@ -31,6 +34,6 @@
     <dimen name="udfps_animation_size">550.0px</dimen>
     <dimen name="udfps_animation_offset">20.0px</dimen>
     
-    <dimen name="keyguard_indication_margin_bottom">10dp</dimen>
+    <dimen name="keyguard_indication_margin_bottom">15dp</dimen>
 
 </resources>
