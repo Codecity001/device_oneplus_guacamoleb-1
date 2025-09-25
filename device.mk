@@ -43,10 +43,6 @@ PRODUCT_PACKAGES += \
     MistSystemUIOverlay \
     AlertSliderOverlay
 
-# NoCutout
-PRODUCT_PACKAGES += \
-    HideCutoutOverlay
-
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 28
 
